@@ -1,0 +1,19 @@
+== README
+
+Setup :
+
+> bundle install
+> rake db:migrate
+> rake db:seed (to seed the db)
+> rails server (to start the server )
+
+Assumptions made
+
+> uses sqlite
+
+>Receptionist will create appointments using http://localhost:3000/appointments/new
+>Doctors can be added using http://localhost:3000/doctors/new
+>Customer can take look at http://localhost:3000/cusomers and only first appointment info is
+shown as of now
+
+Not functionality to edit or deleted any resource yet.
